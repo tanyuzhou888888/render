@@ -1,5 +1,6 @@
+  #基础镜像
   FROM ubuntu:22.04
-  
+  #更新ubuntu并安装shellinabox
   RUN apt-get update && \
       apt-install -y shellinabox && \
       apt-get clean && \
